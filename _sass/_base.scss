@@ -179,6 +179,12 @@ header {
                 font-size: 16px;
                 margin-bottom: 50px;
             }
+            img {
+                width: 50%;
+                max-width: 600px;
+                height: auto;
+                margin-bottom: 60px; 
+            }
         }
     }
     @media (min-width: 768px) {
@@ -219,6 +225,16 @@ header {
     }
     p {
         margin-bottom: 0;
+    }
+    img {
+        position: relative;
+        display: block;
+        max-width: 650px;
+        margin: 0 auto;
+        border-radius: 50%;
+        width: 75%;
+        max-width: 400px;
+        height: auto;
     }
 }
 
